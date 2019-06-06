@@ -1,0 +1,47 @@
+/* https://www.w3schools.com/css/css3_mediaqueries.asp */ 
+// @media screen and (min-width: 480px) {
+//     .solicita-servicios {
+//         background-color: #fcee21;
+//     }
+// }
+
+// @media screen and (max-width: 699px) {
+//     #WhatsApp-Icon {
+        
+//     }
+// }
+// 
+
+input {
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+input:hover {
+    background-color: rgba(249, 208, 35, 0.5);
+}
+
+textarea {
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+textarea:hover {
+    background-color: rgba(249, 208, 35, 0.5);
+}
+
+@media (max-width: 480px) 
+	{
+		.header-bg	{ height:auto;
+		}
+	#logo-header    {
+    max-width: 100%;
+    height: auto;
+}
+	}
+
+@media (max-width: 300px) 
+    {
+    .como-funciona-titulo  { width:auto;
+    }
+}

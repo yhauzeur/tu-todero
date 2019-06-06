@@ -1,0 +1,149 @@
+/* header */ 
+    .header-bg  {
+        background-image: url("../images/pexels-photo-header.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+    #logo-header    {
+        max-width: 500px;
+        height: auto;
+    }
+
+    #button-main    {
+        margin-top: 10px;
+        box-shadow: 1px 1px 2px #8f7400;
+    }
+
+    #header-text-center {
+        text-align: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    #desrcipcion-titulo   {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: #fff;
+    }
+/* header */ 
+/* cta */
+    .about  {
+        margin-top: 20px;
+    }
+
+    #servicios  {
+        margin-top: 5px;
+    }
+
+    hr.style1 {
+        border-top: 2px solid #fcee21;
+    }
+/* cta */
+/* contacto */
+    .solicita-servicios  {
+        margin-top: 40px;
+        background-color: #f8cf22;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    #margen-icons   {
+        margin-top: 5px;
+    }
+
+    .hightlight {
+        background-color: #FFFF00;
+    }
+/* contacto */
+/* los servicios */
+    .mis-servicios {
+        /* The image used */
+        background-image: url("../images/construction-site-build-construction-work-159306.jpg");
+
+        /* Set a specific height */
+        height: auto;
+        width: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    ul li {
+        list-style: none;
+    }
+    
+    /* CTA  y los servicios */ 
+    #link-grey  {
+        color: #363636;
+        text-decoration: none;
+    }
+    /* CTA  y los servicios */ 
+
+    .space-services {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+/* los servicios */
+/* empresas */
+    #empresas-con-las-que-trabajamos    {
+        width:100px;
+        padding-bottom: 30px;
+
+    }
+/* empresas */
+/* galeria */
+    #mi-galeria {
+        margin-bottom: 50px;
+        width: 100%;
+        // padding-top: 30px;
+        padding-bottom: 20px;
+        background-color: #212121
+    }
+
+    .fotos-negocios {
+        padding-bottom: 15px;
+        width: 100%;
+        height: auto;
+    }
+
+    #texto-descriptivo  {
+        color: #959595;
+        font-size: 12px;
+    }
+/* galeria */
+/* form */
+    #form-space {
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    #red-yes    {
+        color: red;
+    }
+
+    #input-sumbit   {
+        margin-top: 5px;
+        border: 0px;
+        padding: 10px;
+        background-color: #f8cf22;
+        color: #8f7400;
+        font-weight: bold;
+        box-shadow: 2px 2px 5px #8f7400;
+    }
+/* form */
+/* footer */
+    .footer {
+        background-color: #212121;
+        color: #f8cf22;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+/* footer 
